@@ -1,4 +1,7 @@
 # dev-sec-opps
+
+![DevOps Title image](/images/devops-process.png)
+
 Place to collaborate on the DevOpd project
 ## List of goals:
 ###	Tech is easy people are hard (Culture Change) 
