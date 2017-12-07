@@ -31,4 +31,25 @@ Place to collaborate on the DevOpd project
 * Strive for one repository one set of metrics. ( there can’t be multiple ground truths)
   
     * Key factor: Centralize the Dev/Test/deploy capabilities as much as possible
+    
+## Roadmap
+
+### Map Our Development/ Delivery Process (SDLC)
+
+* Let's ask ourselves, do we really understand everything that is happening in our delivery process and how long it actually takes? If we don’t really know or are not sure the first order of business is to bring stakeholders from across the Development/ Delivery lifecycle together and map the process out. Do this with all the stakeholders in the room. Techniques from Value Stream mapping may come in handy here.
+
+### Identify Pain Points and Bottlenecks
+
+* Once we have the map of the process, we need to add some quantifications on it like how often feedback loops are run through, the volume of requests, and cycle times. This is why ULM modeling would be helpfull. We will use this information to identify pain points and bottle necks in legacy processes. It will also help us with baselining some performance metrics that we want to improve. It is good practice to define metrics for bottlenecks so that you can see them being removed.
+
+### Address the Minimum Viable Cluster of Applications for DevOps Shift
+
+* Identify the minimum viable cluster that you can address and which will have significant meaning if we can improve it. The minimum viable cluster can be determined from your previous analysis of the process and the analysis of our application architecture as we are now able to identify a set of application that needs to be delivered together. The pain points and bottlenecks will give us an indication which integration points are important (like those for performance testing, or application deployment or integration testing) while others with systems that don’t change or dont have much data flow are less important. We need to make sure to challenge ourselves on the **minimal** set as casting the net too wide will hinder our progress and being too narrow will mean we wont demonstrate the benefit. For this minimum viable cluster we must integrate as early in the lifecycle as possible by deploying all the required tools from the common industry DevOps best practice to get the shortest possible feedback cycles.
+
+A key factor of success lies in the development and execution of our roadmap and the right amount of governance. Making sure that we have tight feedback cycles and that the different groups remain aligned to the goals and the underlying technical architecture is going to be very hard work. We need to enlist our best change agents across the organisation to help. Even at HQ and NPPD levels.
+
+
+
+
+
 
